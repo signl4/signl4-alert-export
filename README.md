@@ -5,6 +5,8 @@ In the SIGNL4 web portal you can manually export historic alert reports as .csv 
 
 Using the REST API it is also possible to export alert data automatically. Here, we provide a sample script to do this.
 
+You can trigger the export script automatically (e.g. every hour or every day) using a cron job or via tools like [Node-RED](https://nodered.org/).
+
 ## Usage and Sample Code
 
 Attention: This code is intended as a sample and only lightly tested with no guarantee. Please use with care.
