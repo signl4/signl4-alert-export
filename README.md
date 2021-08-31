@@ -3,7 +3,7 @@
 
 In the SIGNL4 web portal you can manually export historic alert reports as .csv files. In some cases it might be useful to export alert data programmatically. For example you can forward all alerts including specific parameters to [InfluxDB](https://www.influxdata.com/) and show the alert history in [Grafana](https://grafana.com/) to recognize peaks, trends and abnormalities over time. You can even use AIOps to recognize certain trends automatically and to act accordingly.
 
-Using the REST API it is also possible to export alert data automatically. Here, we provide a sample script to do this.
+By using the SIGNL4 REST API it is possible to export alert data automatically. Here, we provide a sample script to do this.
 
 You can trigger the export script automatically (e.g. every hour or every day) using a cron job or via tools like [Node-RED](https://nodered.org/).
 
