@@ -42,7 +42,7 @@ Attention: All times are UTC times.
 
 You can create the API key in your SIGNL4 web portal under Teams -> Developer.
 
-Right now the exported alerts are logged as command line result. You can change this according to your specific needs. For example you can export the alert data to a .csv file, database, InfluxDB, et.
+Right now the exported alerts are logged as command line result. You can change this according to your specific needs. For example you can export the alert data to a .csv file, database, InfluxDB, etc.
 
 You can add your own export code in the function "getAlertDetails" right below "// Add your export code here".
 
